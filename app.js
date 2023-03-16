@@ -20,7 +20,7 @@ var log = function(msg){
 var express = require("express")
 var app = express()
 app.get("/", function (request, res){
-    res.send("hello world")
+    res.send("hello world! This is Ivy.")
 })
 
 //listen to a particular port
